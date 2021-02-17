@@ -1,12 +1,22 @@
 package co.edu.unbosque.FourPawsCitizens.view;
 
+import java.util.Scanner;
+
 public class View {
+	private Scanner read;
 
 	public View() {
-		super();
-		// TODO Auto-generated constructor stub
+		read = new Scanner(System.in);
 	}
-	
-	
-//ti amo juana:3
+
+	public void printMessage(String m) {
+		System.out.println(m);
+	}
+
+	public String captureData(String m) {
+		String solution = "";
+		m = leer.nextLine();
+		solution  = m;
+		return solution ;
+	}
 }
